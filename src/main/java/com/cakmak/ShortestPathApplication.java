@@ -22,7 +22,7 @@ public class ShortestPathApplication {
 
 		CalculatePaths calculatePaths=new CalculatePaths();
 
-		System.out.println(calculatePaths.findShortestPath(0, DISTANCE_ARRAY));
+		System.out.println(calculatePaths.findShortestPath(3, DISTANCE_ARRAY));
 
 		System.exit(0);
 	}

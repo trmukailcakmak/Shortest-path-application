@@ -67,7 +67,9 @@ public class CalculatePaths {
 
 
                     }
-                    probabilityAndDistance.put(totalDistance,onePossibility);
+                    if (totalDistance!=-1) {
+                        probabilityAndDistance.put(totalDistance, onePossibility);
+                    }
                     distances.add(totalDistance);
                     index.clear();
                 }
