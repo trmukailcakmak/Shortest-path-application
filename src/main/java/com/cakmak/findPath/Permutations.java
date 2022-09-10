@@ -1,4 +1,4 @@
-package com.cakmak.permutations;
+package com.cakmak.findPath;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
